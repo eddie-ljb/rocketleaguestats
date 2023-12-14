@@ -1,5 +1,9 @@
 package de.ebader.dao;
 
-public interface DataAccessObject {
+import com.fasterxml.jackson.databind.JsonNode;
 
+public interface DataAccessObject {
+	
+	public JsonNode getJsonNode();
+	
 }
