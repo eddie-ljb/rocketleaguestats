@@ -1,6 +1,6 @@
 plugins {
 	java
-	id("org.springframework.boot") version "3.2.0"
+	id("org.springframework.boot") version "2.7.0"
 	id("io.spring.dependency-management") version "1.1.4"
 }
 
@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.core:jackson-databind:2.13.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
